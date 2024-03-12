@@ -30,7 +30,18 @@ console.log("a = ", a);*/
 
 // comprision oprators
 
-let a = 5;
+/* let a = 6;
 let b = 5;
- console.log("a == b", a == b)
+ console.log("5 >= 5", a >= b) */
+
+//Logical Oprator
+
+/*  let a = 6;
+let b = 5;
+
+console.log ("a = ", a);
+console.log("b = ", b)
+
+
+console.log("!(6<5) = ", !(a === 6 )); */
 
