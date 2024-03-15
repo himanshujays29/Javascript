@@ -52,19 +52,19 @@ else {
 */
 
 //odd or even 
-/*
-let num = 20;
+
+/* let num = 10;
 
 if(num % 2 === 0) {
     console.log(num, "is Even")
 } else {
     console.log(num, "is Odd")
-}
-*/
+} */
+
 
 //  Elese If
 
-let mode = "dark";
+/* let mode = "pink";
 let color;
 
 if (mode === "dark") {
@@ -76,4 +76,73 @@ if (mode === "dark") {
 } else {
     color = "white"
 }
-console.log(color)
+console.log(color) */
+
+// Ternary Oprators
+
+// let age = 10;
+
+//  let result = 
+//  age >= 18 ? "Adult" : "Not Adult" ;
+//  console.log(result)
+
+//Switch
+
+/* const expr = "papayas";
+switch (expr) {
+    case "oranges":
+    console.log("orenges are  150.0 Rupees.");
+    break;
+    case "papayas":
+        console.log("papayas are  100.0 Rupees.");
+    break;
+    case "mangoes":
+    console.log("mangoes are  200.0 Rupees.")
+    break;
+    default:
+        console.log("Sorry, we are out of ${expr}.");
+
+} */
+
+//Practice Question
+
+
+// Q1 = Get user to input a nunber using prompt("enter a number:"). check if the number is a multiple of 5 or not.
+
+//Answer
+
+ /* let number = prompt("Enter your number:" );
+if (number % 5 === 0){
+     console.log (number," is multiple of 5");
+}
+
+else{
+     console.log (number," is not multiple of 5");
+}
+ */
+
+//Q2 = Write acode witch can give grades to students according to thair scores:
+
+//Answer
+
+/* let scores = 69;
+let grade
+ 
+if (scores >= 90 && scores <= 100) {
+    grade = "Grade A";
+}
+ else if (scores >= 70  && scores <= 89) {
+    grade = "Grade B";
+}
+else if (scores >= 60  && scores <= 69) {
+    grade = "Grade C";
+}
+else if (scores >= 50  && scores <= 59) {
+    grade = "Grade D";
+}
+else if (scores >= 0  && scores <= 49) {
+    grade = "Grade F";
+}
+console.log (grade); */ 
+
+        
