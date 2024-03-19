@@ -1,7 +1,7 @@
 // Conditional Statement
 // IF
 
-/* let age = 25 ;
+ /* let age = 25 ;
 let mode = "dark"; //change 
 let color;
 
@@ -145,4 +145,3 @@ else if (scores >= 0  && scores <= 49) {
 }
 console.log (grade); */ 
 
-        
