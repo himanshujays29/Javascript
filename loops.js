@@ -108,3 +108,4 @@ for(let num = 1; num<=100; num++){
    }
 console.log("Congratulation, you enterd a right number you win $10000 !Enjoy");
 */
+  

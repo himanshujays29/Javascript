@@ -16,7 +16,6 @@ let object = {
     item: "pen",
     price: 10,
 };
-
 let output = `The cost of ${object.item} is ${object.price} rupees`;//tamplate litrels
 console.log(output);
 console.log("The cost of", object.item, "is", object.price ,"rupees"); //Normal
@@ -25,4 +24,11 @@ console.log("The cost of", object.item, "is", object.price ,"rupees"); //Normal
 
 console.log("Himanshu\njayswal"); // \n next line
 console.log("Himanshu\tjayswal"); // \t tab
+
+//String Mathods 
+
+let para = "this is paragraph";
+console.log(para.toUpperCase());
+console.log(para.toUpperCase());
+console.log(para.toUpperCase());
     
