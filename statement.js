@@ -144,4 +144,37 @@ else if (scores >= 0  && scores <= 49) {
     grade = "Grade F";
 }
 console.log (grade); */ 
+/*
+let color = "green";
 
+if (color==="red"){
+    console.log("Stop");
+}
+
+if(color==="yellow"){
+    console.log("Slow down");
+}
+
+if(color==="green"){
+    console.log("You Can Go now");
+}
+
+
+let size = "M";
+let price;
+if(size==="XL"){
+    price= 250; 
+    console.log(`XL popcorn price is Rs.${price}`)
+}else if (size==="L"){
+    price= 200; 
+    console.log(`L popcorn price is Rs.${price}`)
+}else if(size==="M"){
+    price= 100; 
+    console.log(`M popcorn price is Rs.${price}`)
+}else if(size==="S"){
+    price= 50; 
+    console.log(`S popcorn price is Rs.${price}`)
+}else{
+    console.log(`${size} size popcorn is not abilable`)
+}
+*/

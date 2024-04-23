@@ -79,9 +79,10 @@ let para = "this is paragraph";
     //eg: user name = "himanshujayswal" , username should be "@himanshujayswal15"
 
     //Answer
-
+/*
     let input = prompt("Enter your name :")
     let result = "@"+input.concat(input.length);
     console.log("Your user name is :" , result); 
     document.write("Your user name is :" , result);
    
+    */
