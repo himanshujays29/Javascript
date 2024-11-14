@@ -102,7 +102,39 @@ switch (expr) {
     default:
         console.log("Sorry, we are out of ${expr}.");
 
-} */
+} 
+
+
+let day = 14;
+
+switch (day) {
+    case 1:
+        console.log(`${day} = Monday`);
+        break;
+    case 2:
+        console.log(`${day} = Tuesday`);
+        break;
+    case 3:
+        console.log(`${day} = Wednesday`);
+        break;
+    case 4:
+        console.log(`${day} = Thursday`);
+        break;
+    case 5:
+        console.log(`${day} = Friday`);
+        break;
+    case 6:
+        console.log(`${day} = Saturday`);
+        break;
+    case 7:
+        console.log(`${day} = Sunday`);
+        break;
+    default:
+        console.log(`
+        Day ${day} not exist`);
+}
+
+*/
 
 //Practice Question
 
@@ -178,3 +210,105 @@ if(size==="XL"){
     console.log(`${size} size popcorn is not abilable`)
 }
 */
+
+/*
+let str = "heppppl";
+
+if ((str[0]==="a")&&(str.length > 3)){
+        console.log(`${str} is a good string`);
+    } else{
+        console.log(`${str} is not a good string`);
+    }
+    
+
+
+let num = 12;
+if((num%3 === 0) &&((num+1 == 15) || (num-1 == 11))){
+    console.log("Safe");
+}else{
+    console.log("Unsafe");
+}
+
+*/
+
+
+/*
+
+let num1 = 138;
+let num2 = 68;
+
+if((num1%10) == (num2%10)){
+    console.log("numbers have the same last digit which is ", num1%10);
+    
+}else{
+    console.log("numbers don't have same tast digit ");
+}
+
+
+let a = 12;
+let b = 45;
+let c = 6;
+
+
+if(a > b) {
+    if(a>c){
+        console.log(`${a} is largest`);
+    }else{
+        console.log(`${c} is largest`);
+    }
+}else{
+    if(b > c){
+        console.log(`${b} is largest`);
+    }else{
+        console.log(`${c} is largest`);
+    }
+}
+
+
+*/
+
+/*
+// Q1
+
+let num = 1;
+
+if (num % 10 === 0) {
+    console.log("Good");
+} else {
+    console.log("Not Good");
+}
+
+
+//Q3 
+
+let quarter = 1;
+
+switch (quarter) {
+    case 1:
+        console.log(`Months in Quarter 1 : January, Ferbuary, March`);
+        break;
+    case 2:
+        console.log(`Months in Quarter 2 : April, May, June`);
+        break;
+    case 3:
+        console.log(`Months in Quarter 3 : July, August, September`);
+        break;
+    case 4:
+        console.log(`Months in Quarter 4 : October, November, December`);
+        break;
+    default:
+        console.log("Not a Quarter");
+}
+
+//Q4 
+
+let str = "hprail";
+
+if((str.length>5) && (str[0] === "A") || (str[0] === "a")){
+    console.log(`${str} is a Golden String`);
+}
+else{
+    console.log(`${str} is not a Golden String`);
+}
+*/
+

@@ -86,3 +86,26 @@ let para = "this is paragraph";
     document.write("Your user name is :" , result);
    
     */
+/*
+
+    let msg = "help!";
+console.log(msg.trim().toUpperCase());
+
+
+let name = "ApnaCollege";
+console.log(name.slice(4, 9)); //Colle
+console.log(name.indexOf("na")); //2
+console.log(name.replace("Apna", "Our")); //OurCollege
+console.log(name.slice(4).replace("l", "t")); 
+
+
+
+
+// Q2
+
+let name = prompt("Enter your name :");
+let age = prompt("Enter your age :");
+
+alert(`${name} is ${age} years old`);
+
+*/

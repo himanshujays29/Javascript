@@ -108,4 +108,27 @@ for(let num = 1; num<=100; num++){
    }
 console.log("Congratulation, you enterd a right number you win $10000 !Enjoy");
 */
-  
+
+// Break Statememnt to break loops 'break;'
+
+// break use in while loop
+/*
+ let i =1;
+while(i<=10){
+    if(i== 7){
+        break;
+    }
+    console.log(i)
+    i++
+}
+
+// Break use in foor loop
+
+for(let i =1; i<=10; i++){
+    if(i==5){
+        break;
+    }
+    console.log(i)
+   
+}
+*/
